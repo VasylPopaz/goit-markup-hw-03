@@ -165,7 +165,8 @@ img {
 }
 
 .page-header .menu-item {
-  padding: 24px 0;
+  padding-top: 24px;
+  padding-bottom: 24px;
 }
 
 .address-list {
