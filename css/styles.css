@@ -164,18 +164,16 @@ img {
   gap: 40px;
 }
 
-.page-header .menu-item {
-  padding-top: 24px;
-  padding-bottom: 24px;
-}
-
 .address-list {
   display: flex;
   flex-basis: auto;
   gap: 40px;
 }
 
-.menu-link {
+.page-header .menu-link {
+  display: inline-block;
+  padding-top: 24px;
+  padding-bottom: 24px;
   color: var(--secondary-navy-color);
 }
 
