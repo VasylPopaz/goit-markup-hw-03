@@ -341,7 +341,7 @@ img {
   padding: 96px 0 120px 0;
 }
 
-.button-list {
+.main-section .button-list {
   display: flex;
   justify-content: center;
   gap: 24px;
@@ -349,7 +349,7 @@ img {
   margin-bottom: 72px;
 }
 
-.main-section .list {
+.main-section .app-list {
   display: flex;
   flex-wrap: wrap;
   justify-content: center;
