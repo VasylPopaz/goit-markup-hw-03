@@ -105,18 +105,10 @@ img {
 
 .page-footer {
   background-color: var(--secondary-navy-color);
-  padding-top: 101.5px;
-  padding-bottom: 100px;
-}
-
-.page-footer .logo-link {
-  display: block;
-  margin-bottom: 17.5px;
+  padding: 100px 0;
 }
 
 .page-header {
-  padding-top: 24px;
-  padding-bottom: 24px;
   border-bottom: 1px solid var(--cornflower-color);
 }
 
@@ -158,6 +150,7 @@ img {
 
 .page-nav {
   display: flex;
+  align-items: center;
   margin-right: 332px;
   font-size: 16px;
   font-weight: 500;
@@ -168,6 +161,10 @@ img {
 .menu {
   display: flex;
   gap: 40px;
+}
+
+.menu .menu-item {
+  padding: 24px 0;
 }
 
 .address-list {
@@ -212,13 +209,13 @@ img {
 
 .hero {
   background-color: var(--secondary-navy-color);
-  padding-top: 188px;
-  padding-bottom: 188px;
+  padding: 188px 0;
 }
 
 .hero-title {
   margin-bottom: 48px;
   color: var(--primary-white-color);
+  max-width: 496px;
   text-align: center;
   font-size: 56px;
   font-weight: 700;
@@ -228,6 +225,9 @@ img {
 
 .modal-btn {
   padding: 16px 32px;
+  min-width: 169px;
+  height: 56px;
+  border: none;
   font-family: 'Roboto', sans-serif;
   border-radius: 4px;
   box-shadow: 0px 4px 4px 0px rgba(0, 0, 0, 0.15);
@@ -265,8 +265,8 @@ img {
 .qualities .list-item {
   flex-basis: calc((100% - 72px) / 4);
 }
-.qualities .description-text {
-  margin-top: 8px;
+.qualities .subtitle {
+  margin-bottom: 8px;
 }
 /*---------------------------------------/QUALITIES---------------------------- */
 
@@ -274,10 +274,14 @@ img {
 .activity {
   padding-bottom: 120px;
 }
+
+.activity .section-title {
+  margin-bottom: 72px;
+}
+
 .activity .list {
   display: flex;
   gap: 24px;
-  margin-top: 72px;
 }
 
 .activity .list-item {
@@ -286,8 +290,7 @@ img {
 /*-------------------------------------- /ACTIVITY-------------------------------- */
 /* -----------------------------------------TEAM------------------------------------- */
 .team {
-  padding-top: 120px;
-  padding-bottom: 120px;
+  padding: 120px 0;
 }
 
 .team .list {
@@ -303,10 +306,10 @@ img {
   margin-bottom: 72px;
 }
 
-.team img,
-.team .description-text {
-  margin-bottom: 32px;
+.team .employee {
+  padding: 32px 0;
 }
+
 .team .subtitle {
   margin-bottom: 8px;
 }
@@ -323,6 +326,13 @@ img {
     0px 1px 6px 0px rgba(46, 47, 66, 0.08);
 }
 /* -----------------------------------------/TEAM------------------------------------- */
+/* ----------------------------------------FOOTER--------------------------------------------------------- */
+.page-footer .logo-link {
+  display: inline-block;
+  margin-bottom: 16px;
+}
+
+/*----------------------------------------/FOOTER--------------------------------------------------------- */
 
 /* ======================================/INDEX.HTML============================= */
 /* ======================================PORTFOLIO.HTML============================= */
@@ -343,19 +353,21 @@ img {
   flex-wrap: wrap;
   justify-content: center;
   gap: 24px;
+  row-gap: 48px;
 }
 
 .main-section .list-item {
   padding-bottom: 32px;
-  margin-bottom: 48px;
   flex-basis: calc((100% - 48px) / 3);
-  /* border: 1px solid var(--cornflower-color); */
   background: var(--primary-white-color);
 }
 
-.main-section img {
-  margin-bottom: 32px;
+.main-section .app-container {
+  padding: 32px 16px;
+  border: 1px solid var(--cornflower-color);
+  border-top: none;
 }
+
 .main-section .subtitle {
   margin-bottom: 8px;
 }
@@ -379,6 +391,7 @@ img {
 .filter-btn:focus {
   background: var(--accent-color);
   color: var(--primary-white-color);
+  border: 1px solid transparent;
   box-shadow: 0px 2px 2px 0px rgba(0, 0, 0, 0.12),
     0px 2px 1px 0px rgba(0, 0, 0, 0.08), 0px 3px 1px 0px rgba(0, 0, 0, 0.1);
 }
