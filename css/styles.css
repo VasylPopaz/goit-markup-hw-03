@@ -164,7 +164,7 @@ img {
   gap: 40px;
 }
 
-.menu .menu-item {
+.page-header .menu-item {
   padding: 24px 0;
 }
 
@@ -339,11 +339,11 @@ img {
 /* ======================================/INDEX.HTML============================= */
 /* ======================================PORTFOLIO.HTML============================= */
 .main-section {
-  padding-top: 96px;
-  padding-bottom: 120px;
+  padding: 96px 0 120px 0;
 }
 
-.main-section .button-list {
+.button-list {
+  display: flex;
   justify-content: center;
   gap: 24px;
   flex-basis: calc((100% - 96px) / 5);
