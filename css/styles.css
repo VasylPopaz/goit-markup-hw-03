@@ -263,7 +263,7 @@ img {
 }
 
 .qualities .list-item {
-  flex-basis: calc((100%-72px) / 4);
+  flex-basis: calc((100% - 72px) / 4);
 }
 .qualities .description-text {
   margin-top: 8px;
@@ -278,11 +278,10 @@ img {
   display: flex;
   gap: 24px;
   margin-top: 72px;
-  margin-bottom: ;
 }
 
 .activity .list-item {
-  flex-basis: calc((100%-48px) / 3);
+  flex-basis: calc((100% - 48px) / 3);
 }
 /*-------------------------------------- /ACTIVITY-------------------------------- */
 /* -----------------------------------------TEAM------------------------------------- */
@@ -297,7 +296,7 @@ img {
 }
 
 .team .list-item {
-  flex-basis: calc((100%-48px) / 3);
+  flex-basis: calc((100% - 48px) / 3);
 }
 
 .team .section-title {
@@ -335,7 +334,7 @@ img {
 .main-section .button-list {
   justify-content: center;
   gap: 24px;
-  flex-basis: calc((100%-96px) / 5);
+  flex-basis: calc((100% - 96px) / 5);
   margin-bottom: 72px;
 }
 
@@ -349,7 +348,7 @@ img {
 .main-section .list-item {
   padding-bottom: 32px;
   margin-bottom: 48px;
-  flex-basis: calc((100%-48px) / 3);
+  flex-basis: calc((100% - 48px) / 3);
   /* border: 1px solid var(--cornflower-color); */
   background: var(--primary-white-color);
 }
